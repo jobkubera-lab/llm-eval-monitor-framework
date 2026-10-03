@@ -101,13 +101,13 @@ If you want to build and export the project locally, then run the commands below
 npm run build
 ```
 
-If the build completes successfully, then you can export the project to static HTML files using the following command:
+If the build completes successfully, then you can export the project to static HTML files using the command:
 
 ```bash
 npm run export
 ```
 
-**Note:** using the static export feature disables some of the features of `Next.js` as you can [read here](https://nextjs.org/docs/advanced-features/static-html-export). Currently, none of these features are used in this project.
+**Note:** using the static export feature disables some of the features of `Next.js` as you can [read here](https://nextjs.org/docs/advanced-features/static-html-export). Currently, none of these features are used on this project.
 
 ## Deployment
 
