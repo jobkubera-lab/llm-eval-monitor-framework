@@ -1,3 +1,7 @@
+> **KUBERA REFERENCE / UPSTREAM STUDY REPOSITORY**
+>
+> This repository is retained by `jobkubera-lab` for reference and engineering study. It is not presented as original KUBERA code. The upstream NHS England project and original authorship remain authoritative; KUBERA-specific work is documented separately in the main KUBERA portfolio.
+
 ![node version 14](https://img.shields.io/badge/node-v14-green)
 [![Validate terms.json](https://github.com/nhsengland/llm-eval-monitor-framework/actions/workflows/validate-json.yml/badge.svg)](https://github.com/nhsengland/llm-eval-monitor-framework/actions/workflows/validate-json.yml)
 [![status: experimental](https://github.com/GIScience/badges/raw/master/status/experimental.svg)](https://github.com/GIScience/badges#experimental)
@@ -97,13 +101,13 @@ If you want to build and export the project locally, then run the commands below
 npm run build
 ```
 
-If the build completes successfully, then you can export the project to static HTML files using the command:
+If the build completes successfully, then you can export the project to static HTML files using the following command:
 
 ```bash
 npm run export
 ```
 
-**Note:** using the static export feature disables some of the features of `Next.js` as you can [read here](https://nextjs.org/docs/advanced-features/static-html-export). Currently, none of these features are used on this project.
+**Note:** using the static export feature disables some of the features of `Next.js` as you can [read here](https://nextjs.org/docs/advanced-features/static-html-export). Currently, none of these features are used in this project.
 
 ## Deployment
 
